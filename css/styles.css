@@ -88,6 +88,11 @@ section {
     transition: ease 0.3s all;
 }
 
+/* Nav list */
+#navbar__list {
+    color: #000;
+}
+ 
 /* Header Styles */
 .page__header {
     background: #fff;
@@ -96,6 +101,7 @@ section {
     width: 100%;
     z-index: 5;
 }
+
 
 /* Footer Styles */
 .page__footer {
