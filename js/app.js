@@ -58,7 +58,11 @@ document.addEventListener("DOMContentLoaded", function () {
       if (rect.top >= 0 && rect.bottom <= window.innerHeight) {
         //add active state
         section.classList.add("active");
+        const addActive = document.querySelector(`a[href="#${section.id}"]`);
+        addActive.classList.add("add-active");
       } else {
+        const addActive = document.querySelector(`a[href="#${section.id}"]`);
+        addActive.classList.remove("add-active");
         //remove active state
         section.classList.remove("active");
       }

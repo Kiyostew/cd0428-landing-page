@@ -64,6 +64,18 @@ section {
 
 /* ---- Module Rules ---- */
 
+/* Styles for the active section */
+.active {
+    background-color: grey; 
+}
+  
+  /* Styles for the active navigation link */
+  .add-active {
+    background-color: black; 
+    color: #eee;
+    font-weight: bold; 
+  }
+
 /* Navigation Styles*/
 .navbar__menu ul {
   padding-left: 0;
